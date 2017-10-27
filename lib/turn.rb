@@ -1,4 +1,8 @@
-def display_board(cell)
-  display = " #{cell[0]} | #{cell[1]} | #{cell[2]} \n-----------\n #{cell[3]} | #{cell[4]} | #{cell[5]} \n-----------\n #{cell[6]} | #{cell[7]} | #{cell[8]} \n"
-puts display
+def display_board(board)
+  puts " #{board[0]} | #{board[1]} | #{board[2]} "
+  puts "-----------"
+  puts " #{board[3]} | #{board[4]} | #{board[5]} "
+  puts "-----------"
+  puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
+
